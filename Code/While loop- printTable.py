@@ -1,3 +1,4 @@
+# function to calculate table in reverse order
 def table(n):
     i=10
     while i>0:
