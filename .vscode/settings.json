@@ -1,4 +1,7 @@
 {
     "editor.cursorStyle": "line",
-    "scm.providerCountBadge": "hidden"
+    "scm.providerCountBadge": "hidden",
+    "files.exclude": {
+        "**/.git": false
+    }
 }
