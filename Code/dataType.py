@@ -92,4 +92,44 @@ print(lst) #21, 2, 15, 20
 # Tuple Operations
 num=(3, 4, 5, 6, 12)
 print(num[0])
-print(num[1])
+print(num[-1])
+
+
+# Mutable and Immutable datatypes 
+'''In python immutable datatypes are suppose a variable A has value 5 and its address is 100 and if we make A is 7 in next line of our code then 7 will be stored at different location than 100 let it is 200 if we have a variable B which has value of 5 then it will points to the value present at 100 location because the same value is already present like this python handles storage efficienty'''
+
+#integers
+A=5
+print(id(A))        #address of A
+A=7
+print(id(A))
+
+A=5
+B=5
+print(id(B))
+B=7
+print(id(A))
+print(id(B))
+
+#Floats
+weight=12.34
+print(id(weight))
+weight=34.56
+print(id(weight))
+weight1=12.34
+print(id(weight1))
+
+#Boolean
+a=True
+b=True
+print(id(a))
+print(id(b))
+a=False
+b=False
+print(id(a))
+print(id(b))
+
+#Strings
+name="Abhishek Gaikwad"
+print(name[0])
+name[2]="l"
