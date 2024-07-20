@@ -3,9 +3,7 @@
 set() <class 'set'>
 {12, 13}
 0
-HIIII
 False
-HII
 5
 21
 21
@@ -14,7 +12,7 @@ HII
 Male <class 'str'>
 100 <class 'int'>
 True <class 'bool'>
-{'orange', 'banana', 'apple'} <class 'set'>
+{'banana', 'orange', 'apple'} <class 'set'>
 [22, 23, 22, 25, 23, 56] <class 'list'>
 (22, 23, 24, 22, 29, 30) <class 'tuple'>
 {'orange': 5, 'pink': 21, 'motor': 25} <class 'dict'>
@@ -24,4 +22,17 @@ None <class 'NoneType'>
 [1, 2, 15, 20]
 [21, 2, 15, 20]
 3
-4
+12
+140713374140984
+140713374141048
+140713374140984
+140713374140984
+140713374141048
+1352088988816
+1352092501104
+1352088988816
+140713373346896
+140713373346896
+140713373346928
+140713373346928
+A
